@@ -1,8 +1,15 @@
+import sys
+import math
 #single line comment
 """
 mutiline 
 comment
 """
+#Reading from a System Input
+input()
+intake = []
+for line in sys.stidin:
+    intake.append(line)
 x = 17
 strng = 'Hello there'
 str2 = "Hello there"
