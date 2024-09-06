@@ -1,1 +1,1 @@
-#Thanks Ausmit
+Thanks Ausmit
