@@ -6,10 +6,10 @@ mutiline
 comment
 """
 #Reading from a System Input
-input()
+#input()
 intake = []
-for line in sys.stidin:
-    intake.append(line)
+#for line in sys.stdin:
+    #intake.append(line)
 x = 17
 strng = 'Hello there'
 str2 = "Hello there"
@@ -60,7 +60,21 @@ int(num1)+int(num2)
 str(1) == "1"
 print("Hi"+str(2)+"Bob")
 
-
+#math operators
+numTest1 = int(1)
+numTest2 = int(2)
+#adding
+print(numTest1+numTest2)
+#subtracting
+print(numTest2-numTest1)
+#multiplying
+print(numTest1*numTest2)
+#dividing
+print(numTest2/numTest1)
+#squaring
+print(numTest1**2)
+#square rooting
+print(math.sqrt(numTest1))
 def some_function(param, param2):
     pass
 
