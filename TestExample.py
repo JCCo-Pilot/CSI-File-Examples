@@ -1,2 +1,7 @@
-async def main():
-    print("this is the main method")
+import sys
+#intake = input()
+#intake2 = input()
+#print(intake)
+#print(intake2)
+for line in sys.stdin:
+    print(line)
